@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace HyRj.Web.Controllers
 {
-    public class TestController : Controller
+    public class HomeController : Controller
     {
         //
         // GET: /Test/
 
-        public ActionResult Test(int id=0)
+        public ActionResult Index(int id = 0)
         {
             ViewBag.d = id;
             return View();
