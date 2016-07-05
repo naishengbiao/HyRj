@@ -14,9 +14,9 @@ namespace HyRj.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Test",
+                name: "Home",
                 url: "{id}",
-                defaults: new { controller = "Test", action = "Test", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
            
