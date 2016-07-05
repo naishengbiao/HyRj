@@ -9,11 +9,12 @@ namespace HyRj.Web.Controllers
     public class HomeController : Controller
     {
         //
-        // GET: /Test/
+        // GET: /Home/
 
         public ActionResult Index(int id = 0)
         {
-            ViewBag.d = id;
+            ViewBag.dddd = id;
+            
             return View();
         }
 
